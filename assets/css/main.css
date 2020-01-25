@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #444444;
 		overflow: hidden;
 	}
 
@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #eeeeee;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -226,8 +226,9 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
+		background: #444444 ;
+		background-image: url("images/patternmyhead.png");
+		background-repeat: repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -675,7 +676,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px #eeeeee;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -692,7 +693,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: #eeeeee;
 					}
 
 				#header nav a:active {
@@ -702,7 +703,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: #eeeeee;
 					}
 
 				#header nav a span {
@@ -724,7 +725,7 @@ input, select, textarea {
 		position: absolute;
 		text-align: center;
 		width: 100%;
-		color: #fff;
+		color: #444444;
 	}
 
 /* Wide */
